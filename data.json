@@ -1,0 +1,30 @@
+{
+  "user": {
+    "name": "Aneesh Ahmed",
+    "role": "Software Engineer",
+    "location": "Chennai",
+    "team": "Engineering"
+  },
+  "learningGoal": {
+    "year": 2025,
+    "targetHours": 40,
+    "completedHours": 8
+  },
+  "courses": [
+    {
+      "title": "Gen AI Advanced for Tech",
+      "status": "Completed",
+      "creditHours": 10
+    },
+    {
+      "title": "Advanced Certification from Base Skill",
+      "status": "In Progress",
+      "creditHours": 15
+    },
+    {
+      "title": "Mandatory Compliance Training",
+      "status": "Not Started",
+      "creditHours": 5
+    }
+  ]
+}
