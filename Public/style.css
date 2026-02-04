@@ -7,6 +7,11 @@ body {
 h1 {
   margin-bottom: 20px;
 }
+.dashboard{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+}
 
 .card {
   background: rgb(248, 246, 246);
@@ -22,13 +27,20 @@ h1 {
   height: 25px;
   border-radius: 10px;
   overflow: hidden;
-  border:2px solid red;
+}
+
+#complianceBar{
+  height: 100%;
+  width:0%;
+  background: orange;
+  transition: width 0.4s ease;
 }
 
 #progressBar {
   height: 100%;
-  background: green;
-  width: 80%;
+  background: #008000;
+  width: 20%;
+  transition: width 0.5s ease;
 }
 
 .completed {
@@ -41,4 +53,19 @@ h1 {
 
 .not-started {
   color: red;
+}
+
+#completeBtn {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#completeBtn:hover {
+  background-color: #084298;
 }

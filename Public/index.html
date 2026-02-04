@@ -8,6 +8,7 @@
 
   <h1>Learning Dashboard</h1>
 
+  <div class = "dashboard">
   <section class="card">
     <h2>User Profile</h2>
     <p id="userInfo">Loading...</p>
@@ -25,6 +26,24 @@
     <h2>Courses</h2>
     <ul id="courseList"></ul>
   </section>
+
+  <section class = "card">
+    <h2>Compliance summary</h2>
+    <p>Total mandatory courses: <strong id = "totalMandatory">0</strong></p>
+    <p>Completed: <strong id ="completedMandatory">0</strong></p>
+    <p>Pending: <strong id="pendingMandatory">0</strong></p>
+
+    <span id = "totalMandatory"></span>
+    <span id = "completeMandatory"></span>
+    <span id = "pendingMandatory"></span>
+
+    <div class="progress-container">
+      <div id="complianceBar"></div>
+    </div>
+    <p id="compliancePercent">0% Compliance</p>
+    <button id="completeBtn" type="button">Mark Mandatory Course as Completed</button>
+  </section>
+  </div>
 
   <script src="script.js"></script>
 </body>

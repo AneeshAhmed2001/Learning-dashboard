@@ -10,21 +10,25 @@
     "targetHours": 40,
     "completedHours": 8
   },
+
   "courses": [
     {
       "title": "Gen AI Advanced for Tech",
       "status": "Completed",
-      "creditHours": 10
+      "creditHours": 10,
+      "mandatory":false
     },
     {
       "title": "Advanced Certification from Base Skill",
       "status": "In Progress",
-      "creditHours": 15
+      "creditHours": 15,
+      "mandatory": true
     },
     {
       "title": "Mandatory Compliance Training",
       "status": "Not Started",
-      "creditHours": 5
+      "creditHours": 5,
+      "mandatory": true
     }
   ]
 }
