@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+.dashboard{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+}
+
+.card {
+  background: rgb(248, 246, 246);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.progress-container {
+  width: 100%;
+  background: #ddd;
+  height: 25px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#complianceBar{
+  height: 100%;
+  width:0%;
+  background: orange;
+  transition: width 0.4s ease;
+}
+
+#progressBar {
+  height: 100%;
+  background: #008000;
+  width: 20%;
+  transition: width 0.5s ease;
+}
+
+.completed {
+  color: green;
+}
+
+.in-progress {
+  color: orange;
+}
+
+.not-started {
+  color: red;
+}
+
+#completeBtn {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#completeBtn:hover {
+  background-color: #084298;
+}
